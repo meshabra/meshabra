@@ -12,10 +12,8 @@ import {
 } from 'lucide-react';
 import { schoolInfo } from '../data/schoolInfo';
 import {
-  StarDoodle,
   OrganicBlob,
   WaveDivider,
-  CircleDoodle,
   ScribbleUnderline,
 } from '../components/common/DoodleDecorations';
 import type { NavTab } from '../components/layout/Navbar';
@@ -326,7 +324,7 @@ export const ContactPage: React.FC<ContactPageProps> = () => {
       </section>
 
       {/* ========================================================================= */}
-      {/* MAP SECTION: Large Responsive Map Placeholder with Get Directions */}
+      {/* MAP SECTION: Live Interactive Google Map Embed & Directions */}
       {/* ========================================================================= */}
       <section className="section" style={{ backgroundColor: '#fbf7ff', paddingTop: '1rem' }}>
         <div className="container">
@@ -349,74 +347,72 @@ export const ContactPage: React.FC<ContactPageProps> = () => {
               boxShadow: 'var(--shadow-floating)',
               position: 'relative',
               border: '3px solid var(--border-playful)',
+              backgroundColor: '#ffffff',
             }}
           >
-            {/* Styled Map Canvas with Playful Elements */}
+            {/* Live Interactive Google Map Iframe */}
+            <div style={{ position: 'relative', width: '100%', height: '480px', backgroundColor: '#e2e8f0' }}>
+              <iframe
+                src={schoolInfo.address.mapEmbedUrl}
+                width="100%"
+                height="100%"
+                style={{ border: 0, display: 'block' }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="strict-origin-when-cross-origin"
+                title="Millennium English School Habra Map Location"
+              />
+            </div>
+
+            {/* Bottom Location & Directions Bar */}
             <div
               style={{
-                height: '420px',
-                background: 'linear-gradient(135deg, #2e0854 0%, #4c1d95 100%)',
+                padding: '1.75rem 2rem',
+                backgroundColor: '#ffffff',
+                borderTop: '2px solid var(--border-subtle)',
                 display: 'flex',
                 alignItems: 'center',
-                justifyContent: 'center',
-                position: 'relative',
-                overflow: 'hidden',
+                justifyContent: 'space-between',
+                flexWrap: 'wrap',
+                gap: '1.25rem',
               }}
             >
-              {/* Radial dot grid overlay */}
-              <div
-                style={{
-                  position: 'absolute',
-                  inset: 0,
-                  backgroundImage: 'radial-gradient(#7e22ce 1.5px, transparent 1.5px)',
-                  backgroundSize: '24px 24px',
-                  opacity: 0.7,
-                }}
-              />
-
-              {/* Floating Decorative Doodles */}
-              <div style={{ position: 'absolute', top: '20px', left: '20px' }}>
-                <StarDoodle size={32} color="#facc15" />
-              </div>
-              <div style={{ position: 'absolute', bottom: '20px', right: '20px' }}>
-                <CircleDoodle size={36} color="#ec4899" />
-              </div>
-
-              {/* Center Map Card */}
-              <div
-                style={{
-                  position: 'relative',
-                  zIndex: 2,
-                  backgroundColor: 'rgba(255, 255, 255, 0.98)',
-                  backdropFilter: 'blur(12px)',
-                  padding: '2.5rem',
-                  borderRadius: '30px',
-                  boxShadow: '0 20px 40px rgba(0,0,0,0.35)',
-                  textAlign: 'center',
-                  maxWidth: '480px',
-                  border: '3px solid var(--border-playful)',
-                }}
-              >
-                <div style={{ width: '64px', height: '64px', borderRadius: '50%', backgroundColor: 'var(--color-purple-light)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--color-purple-deep)', margin: '0 auto 1.25rem auto' }}>
-                  <MapPin size={34} />
-                </div>
-                <h3 style={{ fontSize: '1.5rem', color: 'var(--color-purple-deep)', marginBottom: '0.4rem', fontFamily: 'var(--font-display)' }}>
-                  Millennium English School
-                </h3>
-                <p style={{ fontSize: '0.95rem', color: 'var(--text-secondary)', marginBottom: '1.5rem', lineHeight: 1.6 }}>
-                  K.N. Roy Road, South Habra, Habra, North 24 Parganas, West Bengal 743263
-                </p>
-                <a
-                  href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent('Millennium English School, K.N. Roy Road, South Habra, West Bengal 743263')}`}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="btn btn-cta"
-                  style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', padding: '0.75rem 1.75rem' }}
+              <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+                <div
+                  style={{
+                    width: '48px',
+                    height: '48px',
+                    borderRadius: '16px',
+                    backgroundColor: 'var(--color-purple-light)',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    color: 'var(--color-purple-deep)',
+                    flexShrink: 0,
+                  }}
                 >
-                  <Navigation size={18} />
-                  <span>Get Directions on Google Maps</span>
-                </a>
+                  <MapPin size={26} />
+                </div>
+                <div>
+                  <div style={{ fontWeight: 800, color: 'var(--color-purple-deep)', fontSize: '1.15rem', fontFamily: 'var(--font-display)' }}>
+                    Millennium English School
+                  </div>
+                  <div style={{ color: 'var(--text-secondary)', fontSize: '0.925rem' }}>
+                    {schoolInfo.address.line1}, {schoolInfo.address.area}, {schoolInfo.address.state} {schoolInfo.address.pincode}
+                  </div>
+                </div>
               </div>
+
+              <a
+                href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent('Millennium English School, K.N. Roy Road, South Habra, West Bengal 743263')}`}
+                target="_blank"
+                rel="noreferrer"
+                className="btn btn-cta"
+                style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', padding: '0.75rem 1.5rem', minHeight: '44px' }}
+              >
+                <Navigation size={18} />
+                <span>Get Directions on Google Maps</span>
+              </a>
             </div>
           </div>
         </div>

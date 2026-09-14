@@ -5,6 +5,7 @@ export interface AddressInfo {
   state: string;
   pincode: string;
   landmark: string;
+  mapEmbedUrl?: string;
 }
 
 export interface ContactInfo {
@@ -61,6 +62,8 @@ export const schoolInfo: SchoolInfo = {
     state: 'West Bengal',
     pincode: '743263',
     landmark: 'South Habra, Habra',
+    mapEmbedUrl:
+      'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d745.887695703016!2d88.65255820853206!3d22.82875207361205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f8b13ff9ac3589%3A0xbfdcdbd2459cb884!2sMillennium%20English%20School%20Habra!5e1!3m2!1sen!2sin!4v1789417641529!5m2!1sen!2sin',
   },
   contact: {
     phone: ['+91 94755 49596', '03216-356665', '+91 95640 00143'],
