@@ -205,8 +205,8 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenEnquiry }) => 
 
               <div style={{ display: 'flex', gap: '0.65rem' }}>
                 <Mail size={18} color="#f472b6" style={{ flexShrink: 0, marginTop: '2px' }} />
-                <a href="mailto:millennium.habra@gmail.com" style={{ color: '#e9d5ff' }}>
-                  millennium.habra@gmail.com
+                <a href={`mailto:${schoolInfo.contact.email}`} style={{ color: '#e9d5ff' }}>
+                  {schoolInfo.contact.email}
                 </a>
               </div>
 

@@ -84,7 +84,7 @@ const pageMetaData: Record<NavTab, PageMeta> = {
   contact: {
     title: 'Contact & Campus Location | Millennium English School South Habra',
     description:
-      'Visit Millennium English School on K.N. Roy Road, South Habra, North 24 Parganas, West Bengal 743263. Phone: +91 94755 49596, 03216-356665. Email: millennium.habra@gmail.com.',
+      'Visit Millennium English School on K.N. Roy Road, South Habra, North 24 Parganas, West Bengal 743263. Phone: +91 94755 49596, 03216-356665. Email: contact@meshabra.in.',
     keywords:
       'Millennium English School contact number, school address South Habra, KN Roy Road Habra school, school phone number Habra West Bengal',
     ogTitle: 'Contact Millennium English School | South Habra, West Bengal',

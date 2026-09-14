@@ -57,4 +57,4 @@ npm run preview
 
 - **Address**: K.N. Roy Road, South Habra, Habra, North 24 Parganas, West Bengal 743263
 - **Phones**: +91 94755 49596 / 03216-356665 / +91 95640 00143
-- **Email**: millennium.habra@gmail.com / query.millennium@gmail.com
+- **Email**: contact@meshabra.in

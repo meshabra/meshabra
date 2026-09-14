@@ -165,8 +165,8 @@ export const ContactPage: React.FC<ContactPageProps> = () => {
                     <a href="tel:+919564000143" style={{ color: '#db2777', fontWeight: 800, fontFamily: 'var(--font-display)', fontSize: '1.1rem' }}>
                       +91 95640 00143
                     </a>
-                    <a href="mailto:query.millennium@gmail.com" style={{ color: '#9d174d', fontWeight: 700 }}>
-                      query.millennium@gmail.com
+                    <a href={`mailto:${schoolInfo.contact.email}`} style={{ color: '#9d174d', fontWeight: 700 }}>
+                      {schoolInfo.contact.email}
                     </a>
                   </div>
                 </div>
@@ -182,8 +182,8 @@ export const ContactPage: React.FC<ContactPageProps> = () => {
                     Official Email
                   </h3>
                   <div style={{ fontSize: '0.95rem' }}>
-                    <a href="mailto:millennium.habra@gmail.com" style={{ color: 'var(--color-purple-main)', fontWeight: 700, fontSize: '1.05rem' }}>
-                      millennium.habra@gmail.com
+                    <a href={`mailto:${schoolInfo.contact.email}`} style={{ color: 'var(--color-purple-main)', fontWeight: 700, fontSize: '1.05rem' }}>
+                      {schoolInfo.contact.email}
                     </a>
                   </div>
                 </div>

@@ -68,8 +68,8 @@ export const schoolInfo: SchoolInfo = {
   contact: {
     phone: ['+91 94755 49596', '03216-356665', '+91 95640 00143'],
     whatsapp: '+91 94755 49596',
-    email: 'millennium.habra@gmail.com',
-    admissionsEmail: 'query.millennium@gmail.com',
+    email: 'contact@meshabra.in',
+    admissionsEmail: 'contact@meshabra.in',
   },
   officeHours: {
     weekdays: '09:00 AM – 02:00 PM (Mon – Fri)',

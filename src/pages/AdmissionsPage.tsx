@@ -18,6 +18,7 @@ import {
   WaveDivider,
   CircleDoodle,
 } from '../components/common/DoodleDecorations';
+import { schoolInfo } from '../data/schoolInfo';
 import type { NavTab } from '../components/layout/Navbar';
 
 interface AdmissionsPageProps {
@@ -576,11 +577,8 @@ export const AdmissionsPage: React.FC<AdmissionsPageProps> = () => {
                 <div style={{ marginTop: '0.5rem' }}>
                   <div style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>Email Inquiries:</div>
                   <div style={{ display: 'flex', flexDirection: 'column', gap: '0.2rem', marginTop: '0.15rem' }}>
-                    <a href="mailto:millennium.habra@gmail.com" style={{ color: 'var(--color-purple-main)', fontWeight: 700, display: 'inline-flex', alignItems: 'center', gap: '0.35rem' }}>
-                      <Mail size={14} /> millennium.habra@gmail.com
-                    </a>
-                    <a href="mailto:query.millennium@gmail.com" style={{ color: 'var(--color-purple-main)', fontWeight: 700, display: 'inline-flex', alignItems: 'center', gap: '0.35rem' }}>
-                      <Mail size={14} /> query.millennium@gmail.com
+                    <a href={`mailto:${schoolInfo.contact.email}`} style={{ color: 'var(--color-purple-main)', fontWeight: 700, display: 'inline-flex', alignItems: 'center', gap: '0.35rem' }}>
+                      <Mail size={14} /> {schoolInfo.contact.email}
                     </a>
                   </div>
                 </div>
