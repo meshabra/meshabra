@@ -72,7 +72,7 @@ export const EnquiryModal: React.FC<EnquiryModalProps> = ({ isOpen, onClose }) =
         {/* Header - Deep Purple Accent */}
         <div style={{ padding: '1.75rem 2rem 1.25rem 2rem', borderBottom: '2px solid var(--border-subtle)', display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', backgroundColor: '#f5f3ff' }}>
           <div>
-            <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', backgroundColor: '#facc15', color: '#581c87', padding: '0.2rem 0.65rem', borderRadius: '9999px', fontSize: '0.78rem', fontWeight: 800, textTransform: 'uppercase', letterSpacing: '0.04em', marginBottom: '0.4rem', fontFamily: 'var(--font-display)' }}>
+            <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', backgroundColor: '#facc15', color: '#581c87', padding: '0.2rem 0.65rem', borderRadius: '9999px', fontSize: '0.78rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.04em', marginBottom: '0.4rem', fontFamily: 'var(--font-display)' }}>
               Session 2025–26 Enrolment
             </div>
             <h3 id="modal-enquiry-title" style={{ fontSize: '1.5rem', color: 'var(--color-purple-deep)', margin: 0, fontFamily: 'var(--font-display)' }}>

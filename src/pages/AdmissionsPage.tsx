@@ -78,7 +78,7 @@ export const AdmissionsPage: React.FC<AdmissionsPageProps> = () => {
               <h1
                 style={{
                   fontSize: 'clamp(2.4rem, 4.5vw, 3.6rem)',
-                  fontWeight: 800,
+                  fontWeight: 700,
                   lineHeight: 1.15,
                   color: 'var(--color-purple-deep)',
                   marginBottom: '1.25rem',
@@ -151,7 +151,7 @@ export const AdmissionsPage: React.FC<AdmissionsPageProps> = () => {
                     }}
                   >
                     <div>
-                      <div style={{ fontSize: '1rem', fontWeight: 800, color: 'var(--color-purple-deep)', fontFamily: 'var(--font-display)' }}>
+                      <div style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--color-purple-deep)', fontFamily: 'var(--font-display)' }}>
                         Limited Batch Admissions
                       </div>
                       <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>
@@ -257,7 +257,7 @@ export const AdmissionsPage: React.FC<AdmissionsPageProps> = () => {
 
               {/* Arrow 1 */}
               <div style={{ display: 'flex', justifyContent: 'center', color: 'var(--color-purple-main)' }}>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontWeight: 800, fontFamily: 'var(--font-display)', color: 'var(--color-purple-deep)', fontSize: '1.1rem' }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontWeight: 700, fontFamily: 'var(--font-display)', color: 'var(--color-purple-deep)', fontSize: '1.1rem' }}>
                   <span>Guides &amp; Mentors</span>
                   <ArrowRight size={24} />
                 </div>
@@ -278,7 +278,7 @@ export const AdmissionsPage: React.FC<AdmissionsPageProps> = () => {
 
               {/* Arrow 2 */}
               <div style={{ display: 'flex', justifyContent: 'center', color: 'var(--color-purple-main)' }}>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontWeight: 800, fontFamily: 'var(--font-display)', color: '#16a34a', fontSize: '1.1rem' }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontWeight: 700, fontFamily: 'var(--font-display)', color: '#16a34a', fontSize: '1.1rem' }}>
                   <span>Results in</span>
                   <ArrowRight size={24} />
                 </div>
@@ -565,7 +565,7 @@ export const AdmissionsPage: React.FC<AdmissionsPageProps> = () => {
                 <div>
                   <div style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>Telephone:</div>
                   <div style={{ display: 'flex', flexDirection: 'column', gap: '0.2rem', marginTop: '0.15rem' }}>
-                    <a href="tel:+919475549596" style={{ color: '#16a34a', fontWeight: 800, fontFamily: 'var(--font-display)', fontSize: '1.1rem' }}>
+                    <a href="tel:+919475549596" style={{ color: '#16a34a', fontWeight: 700, fontFamily: 'var(--font-display)', fontSize: '1.1rem' }}>
                       +91 94755 49596
                     </a>
                     <a href="tel:03216356665" style={{ color: 'var(--color-purple-deep)', fontWeight: 700, fontSize: '1rem' }}>
@@ -618,7 +618,7 @@ export const AdmissionsPage: React.FC<AdmissionsPageProps> = () => {
               Admissions Support
             </span>
 
-            <h2 style={{ fontSize: 'clamp(2.3rem, 4.5vw, 3.4rem)', fontWeight: 800, color: '#ffffff', marginBottom: '1.25rem', lineHeight: 1.2, fontFamily: 'var(--font-display)' }}>
+            <h2 style={{ fontSize: 'clamp(2.3rem, 4.5vw, 3.4rem)', fontWeight: 700, color: '#ffffff', marginBottom: '1.25rem', lineHeight: 1.2, fontFamily: 'var(--font-display)' }}>
               Have Questions? We're Happy to Help.
             </h2>
 

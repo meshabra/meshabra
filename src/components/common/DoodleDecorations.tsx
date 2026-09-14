@@ -298,7 +298,7 @@ export const CircularStampBadge: React.FC<{
         d="M 50, 50 m -37, 0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0"
         fill="none"
       />
-      <text fill={color} fontSize="8.2" fontWeight="800" fontFamily="var(--font-display)" letterSpacing="1.8">
+      <text fill={color} fontSize="8.2" fontWeight="700" fontFamily="var(--font-display)" letterSpacing="1.8">
         <textPath href="#circlePath">
           {text}
         </textPath>
@@ -316,7 +316,7 @@ export const CircularStampBadge: React.FC<{
         alignItems: 'center',
         justifyContent: 'center',
         fontSize: `${size * 0.16}px`,
-        fontWeight: 800,
+        fontWeight: 700,
         fontFamily: 'var(--font-display)',
         boxShadow: '0 4px 10px rgba(0,0,0,0.15)',
       }}
@@ -369,7 +369,7 @@ export const PillTagDoodle: React.FC<{
       border: `1.5px solid ${borderColor}`,
       borderRadius: '9999px',
       fontSize: '0.825rem',
-      fontWeight: 800,
+      fontWeight: 700,
       fontFamily: 'var(--font-display)',
       letterSpacing: '0.02em',
       boxShadow: '0 2px 6px rgba(0,0,0,0.04)',

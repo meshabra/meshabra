@@ -167,7 +167,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenEnquiry })
                     boxShadow: '0 4px 12px rgba(76,29,149,0.08)',
                   }}
                 >
-                  <span style={{ fontSize: '0.875rem', fontWeight: 800, color: 'var(--color-purple-deep)', letterSpacing: '0.02em', fontFamily: 'var(--font-display)' }}>
+                  <span style={{ fontSize: '0.875rem', fontWeight: 700, color: 'var(--color-purple-deep)', letterSpacing: '0.02em', fontFamily: 'var(--font-display)' }}>
                     ADMISSIONS OPEN • PLAYGROUP TO GRADE 8
                   </span>
                 </div>
@@ -185,7 +185,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenEnquiry })
               <h1
                 style={{
                   fontSize: 'clamp(2.5rem, 4.8vw, 3.85rem)',
-                  fontWeight: 800,
+                  fontWeight: 700,
                   lineHeight: 1.15,
                   color: 'var(--color-purple-deep)',
                   marginBottom: '1rem',
@@ -302,7 +302,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenEnquiry })
                 {/* Key Highlights */}
                 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '0.85rem' }}>
                   <div style={{ backgroundColor: '#fdf4ff', padding: '0.9rem', borderRadius: '16px', border: '1px solid #f5d0fe' }}>
-                    <div style={{ fontSize: '1.25rem', fontWeight: 800, color: '#7e22ce', fontFamily: 'var(--font-display)' }}>
+                    <div style={{ fontSize: '1.25rem', fontWeight: 700, color: '#7e22ce', fontFamily: 'var(--font-display)' }}>
                       Playgroup to Gr 8
                     </div>
                     <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', marginTop: '0.15rem' }}>
@@ -310,7 +310,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenEnquiry })
                     </div>
                   </div>
                   <div style={{ backgroundColor: '#f0fdf4', padding: '0.9rem', borderRadius: '16px', border: '1px solid #bbf7d0' }}>
-                    <div style={{ fontSize: '1.25rem', fontWeight: 800, color: '#16a34a', fontFamily: 'var(--font-display)' }}>
+                    <div style={{ fontSize: '1.25rem', fontWeight: 700, color: '#16a34a', fontFamily: 'var(--font-display)' }}>
                       Max 25 / Class
                     </div>
                     <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', marginTop: '0.15rem' }}>
@@ -553,7 +553,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenEnquiry })
                 <h3 style={{ fontSize: '1.75rem', color: '#7e22ce', margin: '0.25rem 0', fontFamily: 'var(--font-display)' }}>
                   EARLY YEARS
                 </h3>
-                <div style={{ fontSize: '1.1rem', fontWeight: 800, color: 'var(--color-purple-deep)', marginTop: '0.25rem', fontFamily: 'var(--font-display)' }}>
+                <div style={{ fontSize: '1.1rem', fontWeight: 700, color: 'var(--color-purple-deep)', marginTop: '0.25rem', fontFamily: 'var(--font-display)' }}>
                   Playgroup • Nursery • LKG • UKG
                 </div>
                 <p style={{ fontSize: '0.95rem', color: 'var(--text-secondary)', marginTop: '0.5rem', maxWidth: '520px' }}>
@@ -570,7 +570,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenEnquiry })
             {/* Progression Arrow */}
             <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.25rem', color: 'var(--color-purple-main)' }}>
               <div style={{ width: '3px', height: '24px', backgroundColor: 'var(--border-playful)' }} />
-              <div style={{ width: '36px', height: '36px', borderRadius: '50%', backgroundColor: 'var(--color-purple-light)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 800, color: 'var(--color-purple-deep)' }}>
+              <div style={{ width: '36px', height: '36px', borderRadius: '50%', backgroundColor: 'var(--color-purple-light)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 700, color: 'var(--color-purple-deep)' }}>
                 ↓
               </div>
               <div style={{ width: '3px', height: '24px', backgroundColor: 'var(--border-playful)' }} />
@@ -598,7 +598,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenEnquiry })
                 <h3 style={{ fontSize: '1.75rem', color: '#16a34a', margin: '0.25rem 0', fontFamily: 'var(--font-display)' }}>
                   PRIMARY &amp; BEYOND
                 </h3>
-                <div style={{ fontSize: '1.1rem', fontWeight: 800, color: 'var(--color-purple-deep)', marginTop: '0.25rem', fontFamily: 'var(--font-display)' }}>
+                <div style={{ fontSize: '1.1rem', fontWeight: 700, color: 'var(--color-purple-deep)', marginTop: '0.25rem', fontFamily: 'var(--font-display)' }}>
                   Class I Onwards
                 </div>
                 <p style={{ fontSize: '0.95rem', color: 'var(--text-secondary)', marginTop: '0.5rem', maxWidth: '520px' }}>
@@ -947,14 +947,14 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenEnquiry })
         />
 
         <div className="container" style={{ position: 'relative', zIndex: 2, textAlign: 'center', maxWidth: '780px' }}>
-          <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.45rem', backgroundColor: 'rgba(250, 204, 21, 0.2)', color: '#facc15', padding: '0.4rem 1.1rem', borderRadius: '9999px', fontSize: '0.9rem', fontWeight: 800, border: '1px solid #facc15', marginBottom: '1.25rem', fontFamily: 'var(--font-display)' }}>
+          <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.45rem', backgroundColor: 'rgba(250, 204, 21, 0.2)', color: '#facc15', padding: '0.4rem 1.1rem', borderRadius: '9999px', fontSize: '0.9rem', fontWeight: 700, border: '1px solid #facc15', marginBottom: '1.25rem', fontFamily: 'var(--font-display)' }}>
             Enrolment 2025–26
           </div>
 
           <h2
             style={{
               fontSize: 'clamp(2.2rem, 4.2vw, 3.4rem)',
-              fontWeight: 800,
+              fontWeight: 700,
               color: '#ffffff',
               marginBottom: '1.25rem',
               fontFamily: 'var(--font-display)',

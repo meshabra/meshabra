@@ -74,7 +74,7 @@ export const NoticeBoardPage: React.FC<NoticeBoardPageProps> = () => {
             <h1
               style={{
                 fontSize: 'clamp(2.4rem, 4.5vw, 3.6rem)',
-                fontWeight: 800,
+                fontWeight: 700,
                 lineHeight: 1.15,
                 color: 'var(--color-purple-deep)',
                 marginBottom: '1.25rem',
@@ -178,7 +178,7 @@ export const NoticeBoardPage: React.FC<NoticeBoardPageProps> = () => {
                     padding: '0.6rem 1.4rem',
                     borderRadius: '9999px',
                     fontSize: '0.925rem',
-                    fontWeight: isSelected ? 800 : 700,
+                    fontWeight: 700,
                     fontFamily: 'var(--font-display)',
                     cursor: 'pointer',
                     transition: 'all var(--transition-fast)',
@@ -239,7 +239,7 @@ export const NoticeBoardPage: React.FC<NoticeBoardPageProps> = () => {
                         background: 'none',
                         border: 'none',
                         color: 'var(--color-purple-deep)',
-                        fontWeight: 800,
+                        fontWeight: 700,
                         fontFamily: 'var(--font-display)',
                         fontSize: '0.925rem',
                         cursor: 'pointer',

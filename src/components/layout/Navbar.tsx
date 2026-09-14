@@ -59,7 +59,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentTab, onSelectTab, onOpenE
             <a href={`mailto:${schoolInfo.contact.email}`} className="hide-on-mobile" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.35rem', color: '#ffffff', fontWeight: 600 }}>
               <Mail size={14} color="#f472b6" /> {schoolInfo.contact.email}
             </a>
-            <span style={{ backgroundColor: '#facc15', color: 'var(--color-purple-deep)', padding: '0.2rem 0.65rem', borderRadius: '9999px', fontSize: '0.75rem', fontWeight: 800, display: 'inline-flex', alignItems: 'center', gap: '0.3rem', letterSpacing: '0.02em' }}>
+            <span style={{ backgroundColor: '#facc15', color: 'var(--color-purple-deep)', padding: '0.2rem 0.65rem', borderRadius: '9999px', fontSize: '0.75rem', fontWeight: 700, display: 'inline-flex', alignItems: 'center', gap: '0.3rem', letterSpacing: '0.02em' }}>
               Admissions Open
             </span>
           </div>

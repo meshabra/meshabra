@@ -68,7 +68,7 @@ export const EventsPage: React.FC<EventsPageProps> = () => {
               <h1
                 style={{
                   fontSize: 'clamp(2.5rem, 4.8vw, 3.8rem)',
-                  fontWeight: 800,
+                  fontWeight: 700,
                   lineHeight: 1.15,
                   color: 'var(--color-purple-deep)',
                   marginBottom: '1.25rem',
@@ -141,7 +141,7 @@ export const EventsPage: React.FC<EventsPageProps> = () => {
                     }}
                   >
                     <div>
-                      <div style={{ fontSize: '1rem', fontWeight: 800, color: 'var(--color-purple-deep)', fontFamily: 'var(--font-display)' }}>
+                      <div style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--color-purple-deep)', fontFamily: 'var(--font-display)' }}>
                         CaNvAs Annual Day
                       </div>
                       <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>
@@ -190,7 +190,7 @@ export const EventsPage: React.FC<EventsPageProps> = () => {
                     padding: '0.55rem 1.35rem',
                     borderRadius: '9999px',
                     fontSize: '0.9rem',
-                    fontWeight: isSelected ? 800 : 700,
+                    fontWeight: 700,
                     fontFamily: 'var(--font-display)',
                     cursor: 'pointer',
                     transition: 'all var(--transition-fast)',
@@ -228,7 +228,7 @@ export const EventsPage: React.FC<EventsPageProps> = () => {
                 </div>
 
                 <div style={{ padding: '1.75rem', display: 'flex', flexDirection: 'column', gap: '0.75rem', flexGrow: 1 }}>
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '0.45rem', fontSize: '0.85rem', color: '#16a34a', fontWeight: 800, fontFamily: 'var(--font-display)' }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '0.45rem', fontSize: '0.85rem', color: '#16a34a', fontWeight: 700, fontFamily: 'var(--font-display)' }}>
                     <Calendar size={15} />
                     <span>{evt.date || 'Date to be announced'}</span>
                   </div>
@@ -256,7 +256,7 @@ export const EventsPage: React.FC<EventsPageProps> = () => {
                         background: 'none',
                         border: 'none',
                         color: 'var(--color-purple-deep)',
-                        fontWeight: 800,
+                        fontWeight: 700,
                         fontFamily: 'var(--font-display)',
                         fontSize: '0.925rem',
                         cursor: 'pointer',
@@ -403,7 +403,7 @@ export const EventsPage: React.FC<EventsPageProps> = () => {
             <div style={{ padding: '2rem' }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '0.75rem', flexWrap: 'wrap' }}>
                 <span className="badge-pill purple">{activeEvent.category}</span>
-                <span style={{ fontSize: '0.85rem', color: '#16a34a', fontWeight: 800, fontFamily: 'var(--font-display)' }}>
+                <span style={{ fontSize: '0.85rem', color: '#16a34a', fontWeight: 700, fontFamily: 'var(--font-display)' }}>
                   📅 {activeEvent.date || 'Date to be announced'}
                 </span>
               </div>

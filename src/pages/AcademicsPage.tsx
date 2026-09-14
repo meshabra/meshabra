@@ -204,7 +204,7 @@ export const AcademicsPage: React.FC<AcademicsPageProps> = ({ onOpenEnquiry }) =
               <h1
                 style={{
                   fontSize: 'clamp(2.4rem, 4.5vw, 3.6rem)',
-                  fontWeight: 800,
+                  fontWeight: 700,
                   lineHeight: 1.15,
                   color: 'var(--color-purple-deep)',
                   marginBottom: '1.25rem',
@@ -277,7 +277,7 @@ export const AcademicsPage: React.FC<AcademicsPageProps> = ({ onOpenEnquiry }) =
                     }}
                   >
                     <div>
-                      <div style={{ fontSize: '1rem', fontWeight: 800, color: 'var(--color-purple-deep)', fontFamily: 'var(--font-display)' }}>
+                      <div style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--color-purple-deep)', fontFamily: 'var(--font-display)' }}>
                         Experiential Pedagogy
                       </div>
                       <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>
@@ -331,7 +331,7 @@ export const AcademicsPage: React.FC<AcademicsPageProps> = ({ onOpenEnquiry }) =
                       padding: '0.3rem 0.85rem',
                       borderRadius: '9999px',
                       fontSize: '0.825rem',
-                      fontWeight: 800,
+                      fontWeight: 700,
                       fontFamily: 'var(--font-display)',
                       boxShadow: '0 2px 6px rgba(0,0,0,0.04)',
                     }}
@@ -634,7 +634,7 @@ export const AcademicsPage: React.FC<AcademicsPageProps> = ({ onOpenEnquiry }) =
                   textAlign: 'center',
                 }}
               >
-                <div style={{ fontSize: '1.35rem', fontWeight: 800, color: 'var(--color-purple-deep)', fontFamily: 'var(--font-display)' }}>
+                <div style={{ fontSize: '1.35rem', fontWeight: 700, color: 'var(--color-purple-deep)', fontFamily: 'var(--font-display)' }}>
                   09:15 AM – 02:05 PM
                 </div>
                 <div style={{ fontSize: '0.8rem', color: 'var(--color-purple-main)', fontWeight: 700, marginTop: '0.2rem' }}>
@@ -673,7 +673,7 @@ export const AcademicsPage: React.FC<AcademicsPageProps> = ({ onOpenEnquiry }) =
                   <div style={{ fontSize: '0.85rem', fontWeight: 700, color: '#854d0e', textTransform: 'uppercase', letterSpacing: '0.04em' }}>
                     Morning Shift
                   </div>
-                  <div style={{ fontSize: '1.35rem', fontWeight: 800, color: '#854d0e', marginTop: '0.35rem', fontFamily: 'var(--font-display)' }}>
+                  <div style={{ fontSize: '1.35rem', fontWeight: 700, color: '#854d0e', marginTop: '0.35rem', fontFamily: 'var(--font-display)' }}>
                     08:00 AM – 10:55 AM
                   </div>
                 </div>
@@ -683,7 +683,7 @@ export const AcademicsPage: React.FC<AcademicsPageProps> = ({ onOpenEnquiry }) =
                   <div style={{ fontSize: '0.85rem', fontWeight: 700, color: '#9d174d', textTransform: 'uppercase', letterSpacing: '0.04em' }}>
                     Day Shift
                   </div>
-                  <div style={{ fontSize: '1.35rem', fontWeight: 800, color: '#9d174d', marginTop: '0.35rem', fontFamily: 'var(--font-display)' }}>
+                  <div style={{ fontSize: '1.35rem', fontWeight: 700, color: '#9d174d', marginTop: '0.35rem', fontFamily: 'var(--font-display)' }}>
                     11:20 AM – 02:15 PM
                   </div>
                 </div>

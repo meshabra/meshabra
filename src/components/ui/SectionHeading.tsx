@@ -54,7 +54,7 @@ export const SectionHeading: React.FC<SectionHeadingProps> = ({
       <h2
         style={{
           fontSize: 'clamp(2rem, 3.8vw, 2.75rem)',
-          fontWeight: 800,
+          fontWeight: 700,
           color: 'var(--color-purple-deep)',
           lineHeight: 1.2,
           marginBottom: subtitle ? '1rem' : '0',

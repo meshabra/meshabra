@@ -57,7 +57,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate }) => {
               <h1
                 style={{
                   fontSize: 'clamp(2.4rem, 4.5vw, 3.6rem)',
-                  fontWeight: 800,
+                  fontWeight: 700,
                   lineHeight: 1.15,
                   color: 'var(--color-purple-deep)',
                   marginBottom: '1.25rem',
@@ -129,7 +129,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate }) => {
                     }}
                   >
                     <div>
-                      <div style={{ fontSize: '1rem', fontWeight: 800, color: 'var(--color-purple-deep)', fontFamily: 'var(--font-display)' }}>
+                      <div style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--color-purple-deep)', fontFamily: 'var(--font-display)' }}>
                         Nurturing Potential
                       </div>
                       <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>

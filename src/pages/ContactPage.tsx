@@ -82,7 +82,7 @@ export const ContactPage: React.FC<ContactPageProps> = () => {
             <h1
               style={{
                 fontSize: 'clamp(2.5rem, 4.8vw, 3.8rem)',
-                fontWeight: 800,
+                fontWeight: 700,
                 lineHeight: 1.15,
                 color: 'var(--color-purple-deep)',
                 marginBottom: '1.25rem',
@@ -142,7 +142,7 @@ export const ContactPage: React.FC<ContactPageProps> = () => {
                     Telephone Contacts
                   </h3>
                   <div style={{ display: 'flex', flexDirection: 'column', gap: '0.35rem', fontSize: '1rem' }}>
-                    <a href="tel:+919475549596" style={{ color: '#16a34a', fontWeight: 800, fontFamily: 'var(--font-display)', fontSize: '1.15rem' }}>
+                    <a href="tel:+919475549596" style={{ color: '#16a34a', fontWeight: 700, fontFamily: 'var(--font-display)', fontSize: '1.15rem' }}>
                       +91 94755 49596
                     </a>
                     <a href="tel:03216356665" style={{ color: '#15803d', fontWeight: 700, fontSize: '1.05rem' }}>
@@ -162,7 +162,7 @@ export const ContactPage: React.FC<ContactPageProps> = () => {
                     Additional Enquiry Contact
                   </h3>
                   <div style={{ display: 'flex', flexDirection: 'column', gap: '0.35rem', fontSize: '0.95rem' }}>
-                    <a href="tel:+919564000143" style={{ color: '#db2777', fontWeight: 800, fontFamily: 'var(--font-display)', fontSize: '1.1rem' }}>
+                    <a href="tel:+919564000143" style={{ color: '#db2777', fontWeight: 700, fontFamily: 'var(--font-display)', fontSize: '1.1rem' }}>
                       +91 95640 00143
                     </a>
                     <a href={`mailto:${schoolInfo.contact.email}`} style={{ color: '#9d174d', fontWeight: 700 }}>
@@ -394,7 +394,7 @@ export const ContactPage: React.FC<ContactPageProps> = () => {
                   <MapPin size={26} />
                 </div>
                 <div>
-                  <div style={{ fontWeight: 800, color: 'var(--color-purple-deep)', fontSize: '1.15rem', fontFamily: 'var(--font-display)' }}>
+                  <div style={{ fontWeight: 700, color: 'var(--color-purple-deep)', fontSize: '1.15rem', fontFamily: 'var(--font-display)' }}>
                     Millennium English School
                   </div>
                   <div style={{ color: 'var(--text-secondary)', fontSize: '0.925rem' }}>

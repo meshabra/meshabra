@@ -187,7 +187,7 @@ export const ProgramCard: React.FC<ProgramCardProps> = ({
         >
           {ageGroup}
         </span>
-        <h3 style={{ fontSize: '1.5rem', fontWeight: 800, color: '#ffffff', margin: 0, fontFamily: 'var(--font-display)' }}>
+        <h3 style={{ fontSize: '1.5rem', fontWeight: 700, color: '#ffffff', margin: 0, fontFamily: 'var(--font-display)' }}>
           {stage}
         </h3>
         <p style={{ fontSize: '0.9rem', color: 'rgba(255, 255, 255, 0.85)', margin: '0.25rem 0 0 0' }}>{grades}</p>

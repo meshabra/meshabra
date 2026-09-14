@@ -60,7 +60,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenEnquiry }) => 
             <h2
               style={{
                 fontSize: 'clamp(2.2rem, 4vw, 3.2rem)',
-                fontWeight: 800,
+                fontWeight: 700,
                 color: '#ffffff',
                 marginBottom: '1rem',
                 lineHeight: 1.2,
@@ -106,7 +106,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenEnquiry }) => 
                 <GraduationCap size={24} />
               </div>
               <div>
-                <h3 style={{ fontSize: '1.2rem', color: '#ffffff', fontWeight: 800, margin: 0, fontFamily: 'var(--font-display)' }}>
+                <h3 style={{ fontSize: '1.2rem', color: '#ffffff', fontWeight: 700, margin: 0, fontFamily: 'var(--font-display)' }}>
                   School
                 </h3>
               </div>
@@ -148,7 +148,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenEnquiry }) => 
 
           {/* Column 2: Programs */}
           <div>
-            <h4 style={{ color: '#ffffff', fontSize: '1.2rem', fontWeight: 800, marginBottom: '1.25rem', fontFamily: 'var(--font-display)' }}>
+            <h4 style={{ color: '#ffffff', fontSize: '1.2rem', fontWeight: 700, marginBottom: '1.25rem', fontFamily: 'var(--font-display)' }}>
               Programs
             </h4>
             <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '0.75rem', fontSize: '0.95rem' }}>
@@ -182,7 +182,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenEnquiry }) => 
 
           {/* Column 3: Contact */}
           <div>
-            <h4 style={{ color: '#ffffff', fontSize: '1.2rem', fontWeight: 800, marginBottom: '1.25rem', fontFamily: 'var(--font-display)' }}>
+            <h4 style={{ color: '#ffffff', fontSize: '1.2rem', fontWeight: 700, marginBottom: '1.25rem', fontFamily: 'var(--font-display)' }}>
               Contact
             </h4>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '0.9rem', fontSize: '0.925rem' }}>
