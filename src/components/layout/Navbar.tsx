@@ -6,12 +6,10 @@ import {
   Clock,
   Menu,
   X,
-  Sparkles,
   ArrowRight,
   MapPin,
 } from 'lucide-react';
 import { schoolInfo } from '../../data/schoolInfo';
-import { StarDoodle } from '../common/DoodleDecorations';
 
 export type NavTab = 'home' | 'about' | 'academics' | 'admissions' | 'notices' | 'events' | 'contact';
 
@@ -62,7 +60,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentTab, onSelectTab, onOpenE
               <Mail size={14} color="#f472b6" /> {schoolInfo.contact.email}
             </a>
             <span style={{ backgroundColor: '#facc15', color: 'var(--color-purple-deep)', padding: '0.2rem 0.65rem', borderRadius: '9999px', fontSize: '0.75rem', fontWeight: 800, display: 'inline-flex', alignItems: 'center', gap: '0.3rem', letterSpacing: '0.02em' }}>
-              <Sparkles size={12} /> Admissions Open
+              Admissions Open
             </span>
           </div>
         </div>
@@ -77,9 +75,6 @@ export const Navbar: React.FC<NavbarProps> = ({ currentTab, onSelectTab, onOpenE
         >
           <div style={{ width: '44px', height: '44px', minWidth: '44px', borderRadius: '14px', background: 'linear-gradient(135deg, #4c1d95 0%, #3b0764 100%)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#ffffff', boxShadow: '0 6px 16px -3px rgba(76,29,149,0.4)', position: 'relative' }}>
             <GraduationCap size={24} strokeWidth={2.2} />
-            <div style={{ position: 'absolute', top: '-4px', right: '-4px' }}>
-              <StarDoodle size={12} color="#facc15" />
-            </div>
           </div>
           <div>
             <div style={{ fontSize: '1.25rem', fontWeight: 700, color: 'var(--color-purple-deep)', letterSpacing: '-0.01em', lineHeight: 1.15, fontFamily: 'var(--font-display)' }}>

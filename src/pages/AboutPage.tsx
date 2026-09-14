@@ -5,7 +5,6 @@ import {
   Compass,
   ShieldCheck,
   Users,
-  Sparkles,
   ArrowRight,
   Heart,
   Camera,
@@ -156,7 +155,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate }) => {
         <div className="container">
           <div className="section-header">
             <span className="section-eyebrow pink">
-              <Sparkles size={14} /> Our Community
+              Our Community
             </span>
             <h2 className="section-title">Welcome to Our Community</h2>
             <p className="section-subtitle">

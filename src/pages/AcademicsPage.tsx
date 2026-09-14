@@ -3,7 +3,6 @@ import {
   BookOpen,
   Cpu,
   Clock,
-  Sparkles,
   ArrowRight,
   Palette,
   Smile,
@@ -304,7 +303,7 @@ export const AcademicsPage: React.FC<AcademicsPageProps> = ({ onOpenEnquiry }) =
         <div className="container">
           <div className="section-header">
             <span className="section-eyebrow pink">
-              <Sparkles size={14} color="#db2777" /> Foundational Stage
+              Foundational Stage
             </span>
             <h2 className="section-title">Early Years Foundation</h2>
             <p className="section-subtitle">
@@ -446,7 +445,7 @@ export const AcademicsPage: React.FC<AcademicsPageProps> = ({ onOpenEnquiry }) =
         <div className="container">
           <div className="section-header">
             <span className="section-eyebrow yellow">
-              <Sparkles size={14} color="#854d0e" /> Beyond Textbooks
+              Beyond Textbooks
             </span>
             <h2 className="section-title">Creative &amp; Experiential Learning</h2>
             <p className="section-subtitle">
@@ -701,7 +700,7 @@ export const AcademicsPage: React.FC<AcademicsPageProps> = ({ onOpenEnquiry }) =
         <div className="container">
           <div className="section-header">
             <span className="section-eyebrow yellow">
-              <Sparkles size={14} color="#854d0e" /> Infrastructure
+              Infrastructure
             </span>
             <h2 className="section-title">Learning Facilities</h2>
             <p className="section-subtitle">

@@ -12,7 +12,6 @@ import { NoticeBoardPage } from './pages/NoticeBoardPage';
 import { EventsPage } from './pages/EventsPage';
 import { ContactPage } from './pages/ContactPage';
 import { SEO } from './components/common/SEO';
-import { Sparkles } from 'lucide-react';
 
 export const App: React.FC = () => {
   const [currentTab, setCurrentTab] = useState<NavTab>('home');
@@ -85,7 +84,7 @@ export const App: React.FC = () => {
       {/* Global Admission & General Enquiry Modal */}
       <EnquiryModal isOpen={isEnquiryOpen} onClose={() => setIsEnquiryOpen(false)} />
 
-      {/* Floating Action Quick Enquiry Button - Bright Green CTA */}
+      {/* Floating Action Button for Quick Enquiry */}
       <button
         onClick={() => setIsEnquiryOpen(true)}
         className="btn-cta"
@@ -105,7 +104,6 @@ export const App: React.FC = () => {
           fontFamily: 'var(--font-display)',
         }}
       >
-        <Sparkles size={18} color="#facc15" />
         <span>Admission Enquiry</span>
       </button>
     </div>

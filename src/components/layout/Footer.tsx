@@ -115,32 +115,32 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenEnquiry }) => 
             <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '0.75rem', fontSize: '0.95rem' }}>
               <li>
                 <button onClick={() => handleLinkClick('about')} style={{ background: 'none', border: 'none', color: '#e9d5ff', cursor: 'pointer', padding: 0, display: 'inline-flex', alignItems: 'center', gap: '0.4rem', fontFamily: 'var(--font-sans)', fontWeight: 600 }}>
-                  <StarDoodle size={12} color="#facc15" /> About Us
+                  About Us
                 </button>
               </li>
               <li>
                 <button onClick={() => handleLinkClick('academics')} style={{ background: 'none', border: 'none', color: '#e9d5ff', cursor: 'pointer', padding: 0, display: 'inline-flex', alignItems: 'center', gap: '0.4rem', fontFamily: 'var(--font-sans)', fontWeight: 600 }}>
-                  <StarDoodle size={12} color="#facc15" /> Academics
+                  Academics
                 </button>
               </li>
               <li>
                 <button onClick={() => handleLinkClick('admissions')} style={{ background: 'none', border: 'none', color: '#e9d5ff', cursor: 'pointer', padding: 0, display: 'inline-flex', alignItems: 'center', gap: '0.4rem', fontFamily: 'var(--font-sans)', fontWeight: 600 }}>
-                  <StarDoodle size={12} color="#facc15" /> Admissions
+                  Admissions
                 </button>
               </li>
               <li>
                 <button onClick={() => handleLinkClick('notices')} style={{ background: 'none', border: 'none', color: '#e9d5ff', cursor: 'pointer', padding: 0, display: 'inline-flex', alignItems: 'center', gap: '0.4rem', fontFamily: 'var(--font-sans)', fontWeight: 600 }}>
-                  <StarDoodle size={12} color="#facc15" /> Notice Board
+                  Notice Board
                 </button>
               </li>
               <li>
                 <button onClick={() => handleLinkClick('events')} style={{ background: 'none', border: 'none', color: '#e9d5ff', cursor: 'pointer', padding: 0, display: 'inline-flex', alignItems: 'center', gap: '0.4rem', fontFamily: 'var(--font-sans)', fontWeight: 600 }}>
-                  <StarDoodle size={12} color="#facc15" /> Events
+                  Events &amp; School Life
                 </button>
               </li>
               <li>
                 <button onClick={() => handleLinkClick('contact')} style={{ background: 'none', border: 'none', color: '#e9d5ff', cursor: 'pointer', padding: 0, display: 'inline-flex', alignItems: 'center', gap: '0.4rem', fontFamily: 'var(--font-sans)', fontWeight: 600 }}>
-                  <StarDoodle size={12} color="#facc15" /> Contact
+                  Contact &amp; Location
                 </button>
               </li>
             </ul>
@@ -154,27 +154,27 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenEnquiry }) => 
             <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '0.75rem', fontSize: '0.95rem' }}>
               <li>
                 <button onClick={() => handleLinkClick('academics')} style={{ background: 'none', border: 'none', color: '#e9d5ff', cursor: 'pointer', padding: 0, display: 'inline-flex', alignItems: 'center', gap: '0.4rem', fontFamily: 'var(--font-sans)', fontWeight: 600 }}>
-                  <StarDoodle size={12} color="#f472b6" /> Early Years
+                  Early Years
                 </button>
               </li>
               <li>
                 <button onClick={() => handleLinkClick('academics')} style={{ background: 'none', border: 'none', color: '#e9d5ff', cursor: 'pointer', padding: 0, display: 'inline-flex', alignItems: 'center', gap: '0.4rem', fontFamily: 'var(--font-sans)', fontWeight: 600 }}>
-                  <StarDoodle size={12} color="#f472b6" /> Primary
+                  Primary
                 </button>
               </li>
               <li>
                 <button onClick={() => handleLinkClick('academics')} style={{ background: 'none', border: 'none', color: '#e9d5ff', cursor: 'pointer', padding: 0, display: 'inline-flex', alignItems: 'center', gap: '0.4rem', fontFamily: 'var(--font-sans)', fontWeight: 600 }}>
-                  <StarDoodle size={12} color="#f472b6" /> STEAM
+                  STEAM
                 </button>
               </li>
               <li>
                 <button onClick={() => handleLinkClick('academics')} style={{ background: 'none', border: 'none', color: '#e9d5ff', cursor: 'pointer', padding: 0, display: 'inline-flex', alignItems: 'center', gap: '0.4rem', fontFamily: 'var(--font-sans)', fontWeight: 600 }}>
-                  <StarDoodle size={12} color="#f472b6" /> Sports
+                  Sports
                 </button>
               </li>
               <li>
                 <button onClick={() => handleLinkClick('academics')} style={{ background: 'none', border: 'none', color: '#e9d5ff', cursor: 'pointer', padding: 0, display: 'inline-flex', alignItems: 'center', gap: '0.4rem', fontFamily: 'var(--font-sans)', fontWeight: 600 }}>
-                  <StarDoodle size={12} color="#f472b6" /> Creative Activities
+                  Creative Activities
                 </button>
               </li>
             </ul>

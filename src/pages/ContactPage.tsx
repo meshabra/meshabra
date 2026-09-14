@@ -6,7 +6,6 @@ import {
   Clock,
   Navigation,
   CheckCircle2,
-  Sparkles,
   ArrowRight,
   MessageSquare,
   AlertCircle,
@@ -231,7 +230,7 @@ export const ContactPage: React.FC<ContactPageProps> = () => {
               }}
             >
               <span className="section-eyebrow pink">
-                <Sparkles size={14} /> Send a Message
+                Send a Message
               </span>
               <h2 style={{ fontSize: '1.85rem', color: 'var(--color-purple-deep)', marginBottom: '0.5rem', fontFamily: 'var(--font-display)' }}>
                 Get in Touch

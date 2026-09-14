@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import {
   Calendar,
-  Sparkles,
   MapPin,
   Image as ImageIcon,
   X,
@@ -63,7 +62,7 @@ export const EventsPage: React.FC<EventsPageProps> = () => {
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '3.5rem', alignItems: 'center' }}>
             <div>
               <span className="section-eyebrow pink">
-                <Sparkles size={16} /> Campus Celebrations
+                Campus Celebrations
               </span>
 
               <h1

@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import {
-  Sparkles,
   ArrowRight,
   ShieldCheck,
   Calendar,
@@ -31,7 +30,6 @@ import {
   WaveDivider,
   CloudDivider,
   CircleDoodle,
-  SparkleDoodle,
   CircularStampBadge,
   ConcentricArcs,
   PillTagDoodle,
@@ -161,7 +159,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenEnquiry })
                   style={{
                     display: 'inline-flex',
                     alignItems: 'center',
-                    gap: '0.5rem',
+                    gap: '0.65rem',
                     padding: '0.45rem 1.1rem',
                     backgroundColor: '#ffffff',
                     border: '2px solid var(--border-playful)',
@@ -169,11 +167,9 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenEnquiry })
                     boxShadow: '0 4px 12px rgba(76,29,149,0.08)',
                   }}
                 >
-                  <Sparkles size={16} color="#db2777" />
                   <span style={{ fontSize: '0.875rem', fontWeight: 800, color: 'var(--color-purple-deep)', letterSpacing: '0.02em', fontFamily: 'var(--font-display)' }}>
                     ADMISSIONS OPEN • PLAYGROUP TO GRADE 8
                   </span>
-                  <StarDoodle size={16} color="#facc15" />
                 </div>
                 <PillTagDoodle label="#JoyfulLearning" bg="#dcfce7" color="#14532d" borderColor="#86efac" />
                 <PillTagDoodle label="#CBSE" bg="#fef9c3" color="#854d0e" borderColor="#fde047" />
@@ -181,7 +177,6 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenEnquiry })
 
               {/* Decorative Stars / Doodles */}
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '0.5rem' }}>
-                <SparkleDoodle size={24} color="#db2777" />
                 <CircleDoodle size={22} color="#facc15" />
                 <StarDoodle size={20} color="#a855f7" />
               </div>
@@ -237,7 +232,6 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenEnquiry })
                   <span style={{ fontSize: '0.85rem', fontWeight: 700, color: 'var(--color-purple-deep)', fontFamily: 'var(--font-display)' }}>CBSE Curriculum</span>
                 </div>
                 <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.45rem', backgroundColor: '#ffffff', padding: '0.35rem 0.85rem', borderRadius: '9999px', border: '1px solid #fbcfe8', boxShadow: '0 2px 6px rgba(0,0,0,0.04)' }}>
-                  <Sparkles size={16} color="#db2777" />
                   <span style={{ fontSize: '0.85rem', fontWeight: 700, color: 'var(--color-purple-deep)', fontFamily: 'var(--font-display)' }}>NEP 2020 Compliant</span>
                 </div>
               </div>
@@ -345,7 +339,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenEnquiry })
         <div className="container">
           <div className="section-header">
             <span className="section-eyebrow purple">
-              <Sparkles size={14} /> Core Philosophy
+              Core Philosophy
             </span>
             <h2 className="section-title">Why Millennium?</h2>
             <p className="section-subtitle" style={{ fontSize: '1.25rem', fontWeight: 700, color: 'var(--color-purple-deep)' }}>
@@ -445,7 +439,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenEnquiry })
         <div className="container">
           <div className="section-header">
             <span className="section-eyebrow yellow">
-              <Sparkles size={14} color="#854d0e" /> Holistic Co-Curriculars
+              Holistic Co-Curriculars
             </span>
             <h2 className="section-title">Learn • Play • Create</h2>
             <p className="section-subtitle">
@@ -623,7 +617,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenEnquiry })
         <div className="container">
           <div className="section-header">
             <span className="section-eyebrow pink">
-              <Sparkles size={14} color="#db2777" /> Experiential Programs
+              Experiential Programs
             </span>
             <h2 className="section-title">Learning Beyond Books</h2>
             <p className="section-subtitle">
@@ -773,7 +767,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenEnquiry })
         <div className="container">
           <div className="section-header">
             <span className="section-eyebrow yellow">
-              <Sparkles size={14} color="#854d0e" /> Modern Infrastructure
+              Modern Infrastructure
             </span>
             <h2 className="section-title">Explore Our Campus</h2>
             <p className="section-subtitle">
@@ -946,7 +940,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenEnquiry })
 
         <div className="container" style={{ position: 'relative', zIndex: 2, textAlign: 'center', maxWidth: '780px' }}>
           <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.45rem', backgroundColor: 'rgba(250, 204, 21, 0.2)', color: '#facc15', padding: '0.4rem 1.1rem', borderRadius: '9999px', fontSize: '0.9rem', fontWeight: 800, border: '1px solid #facc15', marginBottom: '1.25rem', fontFamily: 'var(--font-display)' }}>
-            <Sparkles size={16} /> Enrolment 2025–26
+            Enrolment 2025–26
           </div>
 
           <h2

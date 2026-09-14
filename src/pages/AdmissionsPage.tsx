@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import {
-  Sparkles,
   ArrowRight,
   Users,
   CheckCircle2,
@@ -10,6 +9,7 @@ import {
   HeartHandshake,
   User,
   Heart,
+  Award,
 } from 'lucide-react';
 import {
   StarDoodle,
@@ -71,7 +71,7 @@ export const AdmissionsPage: React.FC<AdmissionsPageProps> = () => {
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '3.5rem', alignItems: 'center' }}>
             <div>
               <span className="section-eyebrow green">
-                <Sparkles size={16} /> Admissions Open
+                Admissions Open
               </span>
 
               <h1
@@ -198,7 +198,7 @@ export const AdmissionsPage: React.FC<AdmissionsPageProps> = () => {
               }}
             >
               <div style={{ width: '64px', height: '64px', borderRadius: '20px', backgroundColor: '#ffffff', color: '#7e22ce', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, boxShadow: '0 4px 12px rgba(76,29,149,0.1)' }}>
-                <Sparkles size={32} />
+                <Award size={32} />
               </div>
               <div style={{ flexGrow: 1 }}>
                 <h3 style={{ fontSize: '1.45rem', color: 'var(--color-purple-deep)', marginBottom: '0.5rem', fontFamily: 'var(--font-display)' }}>
@@ -286,7 +286,7 @@ export const AdmissionsPage: React.FC<AdmissionsPageProps> = () => {
               {/* Step 3: Individual Attention */}
               <div style={{ padding: '1.5rem', backgroundColor: '#fefce8', borderRadius: '24px', border: '1px solid #fef08a' }}>
                 <div style={{ width: '60px', height: '60px', borderRadius: '50%', backgroundColor: '#ffffff', color: '#ca8a04', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 1rem auto', boxShadow: '0 4px 10px rgba(0,0,0,0.05)' }}>
-                  <Sparkles size={30} />
+                  <Heart size={30} />
                 </div>
                 <h3 style={{ fontSize: '1.3rem', color: '#854d0e', margin: 0, fontFamily: 'var(--font-display)' }}>
                   3. Individual Attention
@@ -371,7 +371,7 @@ export const AdmissionsPage: React.FC<AdmissionsPageProps> = () => {
         <div className="container">
           <div className="section-header">
             <span className="section-eyebrow pink">
-              <Sparkles size={14} color="#db2777" /> Application Desk
+              Application Desk
             </span>
             <h2 className="section-title">How to Enquire</h2>
             <p className="section-subtitle">
@@ -604,9 +604,9 @@ export const AdmissionsPage: React.FC<AdmissionsPageProps> = () => {
                 display: 'inline-flex',
                 alignItems: 'center',
                 gap: '0.45rem',
-                backgroundColor: 'rgba(255, 255, 255, 0.15)',
-                color: '#fef08a',
-                padding: '0.4rem 1.25rem',
+                backgroundColor: 'rgba(250, 204, 21, 0.2)',
+                color: '#facc15',
+                padding: '0.4rem 1.1rem',
                 borderRadius: '9999px',
                 fontSize: '0.875rem',
                 fontWeight: 700,
@@ -617,7 +617,7 @@ export const AdmissionsPage: React.FC<AdmissionsPageProps> = () => {
                 fontFamily: 'var(--font-display)',
               }}
             >
-              <Sparkles size={16} /> Admissions Support
+              Admissions Support
             </span>
 
             <h2 style={{ fontSize: 'clamp(2.3rem, 4.5vw, 3.4rem)', fontWeight: 800, color: '#ffffff', marginBottom: '1.25rem', lineHeight: 1.2, fontFamily: 'var(--font-display)' }}>
