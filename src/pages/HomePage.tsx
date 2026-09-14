@@ -43,7 +43,7 @@ interface HomePageProps {
 }
 
 export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenEnquiry }) => {
-  const [activeTabCategory, setActiveTabCategory] = useState<'steam' | 'sports' | 'art' | 'music'>('steam');
+  const [activeTabCategory, setActiveTabCategory] = useState<'all' | 'steam' | 'sports' | 'art' | 'music'>('all');
   const previewEvents = eventsData.slice(0, 3);
 
   // 10 Activities list strictly matching prospectus
@@ -449,6 +449,12 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenEnquiry })
             {/* Badge Pills Row */}
             <div style={{ display: 'flex', justifyContent: 'center', gap: '0.75rem', flexWrap: 'wrap', marginTop: '1.5rem' }}>
               <button
+                onClick={() => setActiveTabCategory('all')}
+                className={`btn btn-sm ${activeTabCategory === 'all' ? 'btn-purple' : 'btn-secondary'}`}
+              >
+                <span>ALL ({activitiesList.length})</span>
+              </button>
+              <button
                 onClick={() => setActiveTabCategory('steam')}
                 className={`btn btn-sm ${activeTabCategory === 'steam' ? 'btn-purple' : 'btn-secondary'}`}
               >
@@ -477,29 +483,31 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenEnquiry })
 
           {/* Filtered 10 Activities Grid */}
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '1.5rem' }}>
-            {activitiesList.map((item, idx) => (
-              <div
-                key={idx}
-                className="card-playful"
-                style={{
-                  backgroundColor: '#ffffff',
-                  display: 'flex',
-                  flexDirection: 'column',
-                  gap: '0.85rem',
-                  padding: '1.75rem',
-                }}
-              >
-                <div style={{ width: '48px', height: '48px', borderRadius: '14px', backgroundColor: item.bg, color: item.color, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                  {item.icon}
+            {activitiesList
+              .filter((item) => activeTabCategory === 'all' || item.category === activeTabCategory)
+              .map((item, idx) => (
+                <div
+                  key={idx}
+                  className="card-playful animate-fade-in"
+                  style={{
+                    backgroundColor: '#ffffff',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    gap: '0.85rem',
+                    padding: '1.75rem',
+                  }}
+                >
+                  <div style={{ width: '48px', height: '48px', borderRadius: '14px', backgroundColor: item.bg, color: item.color, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                    {item.icon}
+                  </div>
+                  <h4 style={{ fontSize: '1.25rem', color: 'var(--color-purple-deep)', margin: 0, fontFamily: 'var(--font-display)' }}>
+                    {item.title}
+                  </h4>
+                  <p style={{ fontSize: '0.95rem', color: 'var(--text-secondary)', lineHeight: 1.6, margin: 0 }}>
+                    {item.desc}
+                  </p>
                 </div>
-                <h4 style={{ fontSize: '1.25rem', color: 'var(--color-purple-deep)', margin: 0, fontFamily: 'var(--font-display)' }}>
-                  {item.title}
-                </h4>
-                <p style={{ fontSize: '0.95rem', color: 'var(--text-secondary)', lineHeight: 1.6, margin: 0 }}>
-                  {item.desc}
-                </p>
-              </div>
-            ))}
+              ))}
           </div>
         </div>
       </section>
