@@ -72,7 +72,7 @@ export const EnquiryModal: React.FC<EnquiryModalProps> = ({ isOpen, onClose }) =
         {/* Header - Deep Purple Accent */}
         <div style={{ padding: '1.75rem 2rem 1.25rem 2rem', borderBottom: '2px solid var(--border-subtle)', display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', backgroundColor: '#f5f3ff' }}>
           <div>
-            <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', backgroundColor: '#facc15', color: '#581c87', padding: '0.2rem 0.65rem', borderRadius: '9999px', fontSize: '0.78rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.04em', marginBottom: '0.4rem', fontFamily: 'var(--font-display)' }}>
+            <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', backgroundColor: '#facc15', color: '#581c87', padding: '0.2rem 0.65rem', borderRadius: '9999px', fontSize: '0.78rem', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.04em', marginBottom: '0.4rem', fontFamily: 'var(--font-display)' }}>
               Session 2025–26 Enrolment
             </div>
             <h3 id="modal-enquiry-title" style={{ fontSize: '1.5rem', color: 'var(--color-purple-deep)', margin: 0, fontFamily: 'var(--font-display)' }}>
@@ -105,7 +105,7 @@ export const EnquiryModal: React.FC<EnquiryModalProps> = ({ isOpen, onClose }) =
                 Thank you for your interest in <strong>Millennium English School</strong>. A member of our admissions team will contact you shortly on <strong>{formData.phone || 'your phone number'}</strong>.
               </p>
               <div style={{ backgroundColor: 'var(--bg-subtle)', borderRadius: 'var(--radius-md)', padding: '1rem', display: 'inline-block', textAlign: 'left', marginBottom: '1.5rem', fontSize: '0.875rem', border: '1px solid var(--border-playful)' }}>
-                <div style={{ fontWeight: 700, color: 'var(--color-purple-deep)', fontFamily: 'var(--font-display)' }}>Direct Admissions Desk:</div>
+                <div style={{ fontWeight: 600, color: 'var(--color-purple-deep)', fontFamily: 'var(--font-display)' }}>Direct Admissions Desk:</div>
                 <div style={{ color: 'var(--text-secondary)' }}>Call: {schoolInfo.contact.phone[0]} | Email: {schoolInfo.contact.admissionsEmail}</div>
               </div>
               <div>

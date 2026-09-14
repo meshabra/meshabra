@@ -59,7 +59,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentTab, onSelectTab, onOpenE
             <a href={`mailto:${schoolInfo.contact.email}`} className="hide-on-mobile" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.35rem', color: '#ffffff', fontWeight: 600 }}>
               <Mail size={14} color="#f472b6" /> {schoolInfo.contact.email}
             </a>
-            <span style={{ backgroundColor: '#facc15', color: 'var(--color-purple-deep)', padding: '0.2rem 0.65rem', borderRadius: '9999px', fontSize: '0.75rem', fontWeight: 700, display: 'inline-flex', alignItems: 'center', gap: '0.3rem', letterSpacing: '0.02em' }}>
+            <span style={{ backgroundColor: '#facc15', color: 'var(--color-purple-deep)', padding: '0.2rem 0.65rem', borderRadius: '9999px', fontSize: '0.75rem', fontWeight: 600, display: 'inline-flex', alignItems: 'center', gap: '0.3rem', letterSpacing: '0.02em' }}>
               Admissions Open
             </span>
           </div>
@@ -80,7 +80,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentTab, onSelectTab, onOpenE
             <div style={{ fontSize: '1.25rem', fontWeight: 700, color: 'var(--color-purple-deep)', letterSpacing: '-0.01em', lineHeight: 1.15, fontFamily: 'var(--font-display)' }}>
               Millennium English School
             </div>
-            <div style={{ fontSize: '0.75rem', fontWeight: 700, color: 'var(--color-pink-deep)', letterSpacing: '0.03em', textTransform: 'uppercase', display: 'flex', alignItems: 'center', gap: '0.3rem' }}>
+            <div style={{ fontSize: '0.75rem', fontWeight: 600, color: 'var(--color-pink-deep)', letterSpacing: '0.03em', textTransform: 'uppercase', display: 'flex', alignItems: 'center', gap: '0.3rem' }}>
               <span>Habra</span> • <span>Knowledge &amp; Character</span>
             </div>
           </div>
@@ -102,7 +102,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentTab, onSelectTab, onOpenE
                   padding: '0.55rem 1rem',
                   borderRadius: 'var(--radius-pill)',
                   fontSize: '0.925rem',
-                  fontWeight: isActive ? 800 : 600,
+                  fontWeight: isActive ? 700 : 600,
                   fontFamily: 'var(--font-display)',
                   cursor: 'pointer',
                   minHeight: '44px',

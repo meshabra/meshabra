@@ -167,7 +167,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenEnquiry })
                     boxShadow: '0 4px 12px rgba(76,29,149,0.08)',
                   }}
                 >
-                  <span style={{ fontSize: '0.875rem', fontWeight: 700, color: 'var(--color-purple-deep)', letterSpacing: '0.02em', fontFamily: 'var(--font-display)' }}>
+                  <span style={{ fontSize: '0.875rem', fontWeight: 600, color: 'var(--color-purple-deep)', letterSpacing: '0.02em', fontFamily: 'var(--font-display)' }}>
                     ADMISSIONS OPEN • PLAYGROUP TO GRADE 8
                   </span>
                 </div>
@@ -221,18 +221,18 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenEnquiry })
               <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', flexWrap: 'wrap', paddingTop: '1.5rem', borderTop: '2px dashed var(--border-medium)' }}>
                 <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.45rem', backgroundColor: '#ffffff', padding: '0.35rem 0.85rem', borderRadius: '9999px', border: '1px solid #bbf7d0', boxShadow: '0 2px 6px rgba(0,0,0,0.04)' }}>
                   <ShieldCheck size={16} color="#16a34a" />
-                  <span style={{ fontSize: '0.85rem', fontWeight: 700, color: 'var(--color-purple-deep)', fontFamily: 'var(--font-display)' }}>English Medium</span>
+                  <span style={{ fontSize: '0.85rem', fontWeight: 600, color: 'var(--color-purple-deep)', fontFamily: 'var(--font-display)' }}>English Medium</span>
                 </div>
                 <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.45rem', backgroundColor: '#ffffff', padding: '0.35rem 0.85rem', borderRadius: '9999px', border: '1px solid #ddd6fe', boxShadow: '0 2px 6px rgba(0,0,0,0.04)' }}>
                   <Users size={16} color="var(--color-purple-main)" />
-                  <span style={{ fontSize: '0.85rem', fontWeight: 700, color: 'var(--color-purple-deep)', fontFamily: 'var(--font-display)' }}>Co-Educational</span>
+                  <span style={{ fontSize: '0.85rem', fontWeight: 600, color: 'var(--color-purple-deep)', fontFamily: 'var(--font-display)' }}>Co-Educational</span>
                 </div>
                 <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.45rem', backgroundColor: '#ffffff', padding: '0.35rem 0.85rem', borderRadius: '9999px', border: '1px solid #fef08a', boxShadow: '0 2px 6px rgba(0,0,0,0.04)' }}>
                   <Award size={16} color="#ca8a04" />
-                  <span style={{ fontSize: '0.85rem', fontWeight: 700, color: 'var(--color-purple-deep)', fontFamily: 'var(--font-display)' }}>CBSE Curriculum</span>
+                  <span style={{ fontSize: '0.85rem', fontWeight: 600, color: 'var(--color-purple-deep)', fontFamily: 'var(--font-display)' }}>CBSE Curriculum</span>
                 </div>
                 <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.45rem', backgroundColor: '#ffffff', padding: '0.35rem 0.85rem', borderRadius: '9999px', border: '1px solid #fbcfe8', boxShadow: '0 2px 6px rgba(0,0,0,0.04)' }}>
-                  <span style={{ fontSize: '0.85rem', fontWeight: 700, color: 'var(--color-purple-deep)', fontFamily: 'var(--font-display)' }}>NEP 2020 Compliant</span>
+                  <span style={{ fontSize: '0.85rem', fontWeight: 600, color: 'var(--color-purple-deep)', fontFamily: 'var(--font-display)' }}>NEP 2020 Compliant</span>
                 </div>
               </div>
             </div>
@@ -900,12 +900,12 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenEnquiry })
                     {evt.description}
                   </p>
                   <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', paddingTop: '0.75rem', borderTop: '1px solid var(--border-subtle)' }}>
-                    <span style={{ fontSize: '0.85rem', color: 'var(--color-purple-main)', fontWeight: 700 }}>
+                    <span style={{ fontSize: '0.85rem', color: 'var(--color-purple-main)', fontWeight: 600 }}>
                       {evt.date || 'Date to be announced'}
                     </span>
                     <button
                       onClick={() => onNavigate('events')}
-                      style={{ background: 'none', border: 'none', color: 'var(--color-pink-deep)', fontWeight: 700, fontSize: '0.875rem', cursor: 'pointer', display: 'inline-flex', alignItems: 'center', gap: '0.25rem', padding: 0 }}
+                      style={{ background: 'none', border: 'none', color: 'var(--color-pink-deep)', fontWeight: 600, fontSize: '0.875rem', cursor: 'pointer', display: 'inline-flex', alignItems: 'center', gap: '0.25rem', padding: 0 }}
                     >
                       <span>Explore</span>
                       <ChevronRight size={14} />
@@ -947,7 +947,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenEnquiry })
         />
 
         <div className="container" style={{ position: 'relative', zIndex: 2, textAlign: 'center', maxWidth: '780px' }}>
-          <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.45rem', backgroundColor: 'rgba(250, 204, 21, 0.2)', color: '#facc15', padding: '0.4rem 1.1rem', borderRadius: '9999px', fontSize: '0.9rem', fontWeight: 700, border: '1px solid #facc15', marginBottom: '1.25rem', fontFamily: 'var(--font-display)' }}>
+          <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.45rem', backgroundColor: 'rgba(250, 204, 21, 0.2)', color: '#facc15', padding: '0.4rem 1.1rem', borderRadius: '9999px', fontSize: '0.9rem', fontWeight: 600, border: '1px solid #facc15', marginBottom: '1.25rem', fontFamily: 'var(--font-display)' }}>
             Enrolment 2025–26
           </div>
 

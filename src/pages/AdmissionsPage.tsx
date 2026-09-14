@@ -607,7 +607,7 @@ export const AdmissionsPage: React.FC<AdmissionsPageProps> = () => {
                 padding: '0.4rem 1.1rem',
                 borderRadius: '9999px',
                 fontSize: '0.875rem',
-                fontWeight: 700,
+                fontWeight: 600,
                 textTransform: 'uppercase',
                 letterSpacing: '0.04em',
                 marginBottom: '1.25rem',

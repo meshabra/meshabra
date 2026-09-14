@@ -50,7 +50,7 @@ export const Badge: React.FC<BadgeProps> = ({
         gap: '0.4rem',
         padding: getPadding(),
         fontSize: getFontSize(),
-        fontWeight: 700,
+        fontWeight: 600,
         fontFamily: 'var(--font-display)',
         borderRadius: 'var(--radius-pill)',
         letterSpacing: '0.02em',

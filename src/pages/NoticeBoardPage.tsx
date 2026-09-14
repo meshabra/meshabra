@@ -178,7 +178,7 @@ export const NoticeBoardPage: React.FC<NoticeBoardPageProps> = () => {
                     padding: '0.6rem 1.4rem',
                     borderRadius: '9999px',
                     fontSize: '0.925rem',
-                    fontWeight: 700,
+                    fontWeight: 600,
                     fontFamily: 'var(--font-display)',
                     cursor: 'pointer',
                     transition: 'all var(--transition-fast)',

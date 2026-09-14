@@ -290,7 +290,7 @@ a {
 .btn-yellow {
   background-color: var(--color-yellow-highlight);
   color: var(--color-purple-deep);
-  font-weight: 700;
+  font-weight: 600;
   box-shadow: 0 4px 14px rgba(250, 204, 21, 0.4);
 }
 

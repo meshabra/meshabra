@@ -104,7 +104,7 @@ export const TextLink: React.FC<TextLinkProps> = ({
         display: 'inline-flex',
         alignItems: 'center',
         gap: '0.35rem',
-        fontWeight: 700,
+        fontWeight: 600,
         fontFamily: 'var(--font-display)',
         textDecoration: 'none',
         cursor: 'pointer',
